@@ -1,0 +1,141 @@
+body {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+
+header {
+  width: 100%; 
+  height: 60px;
+  max-width: 1440px;
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background: #FFF;
+  margin: 0 auto;padding: 0 20px;
+  
+}
+
+.image {
+  flex: 0 auto;
+  margin-left: 168px; margin-right: 20px;}
+
+.text-container{
+  margin-left: 700px;
+  margin-top: 34px; margin-bottom: 31px;
+  display: flex;
+  gap: 20px;
+  margin-right: 164px;
+  color: #837D88;
+}
+
+.button-container{
+  background-color: aqua;
+      border: 2px solid #2C2830;
+  background: #FFF;
+  width: 146px;
+  height: 40px; flex-shrink: 0;
+  cursor: pointer;
+}
+.mothercontainer {
+  background-color: #2D2641;
+  height: 600px;
+  display: flex;
+  color: #FFF;
+ 
+}
+
+.button1{
+  cursor: pointer;
+}
+
+.childcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px; }
+  .text {
+      font-size: 40px;
+      margin-bottom: 20px;}
+      
+  .p2 {
+      margin-bottom: 20px}
+      .button1 {
+          background-color: aqua;
+          border: 2px solid white;
+          background: #2D2641;
+          width: 146px;
+          height: 40px;
+          color: #FFF;
+         
+        }
+   
+
+
+.different{
+  padding-left: 165px;font-size: 20px;background-color:white;margin-top: 400px;display: flex;
+}
+.icon1{
+  width: 350px;
+  height: 78px;
+}
+.icons{
+  padding-left: 165px;;background-color:white;;display: flex;gap: 30px;
+}
+.icon2{
+  width: 350px;
+  height: 78px;
+}
+  .icon3{
+    width: 350px;
+      height: 78px;
+    }
+.container3{
+  display: flex;margin-top: 400px;margin-left: 165px;background-color: #2D2641;width: 1110px;
+  height: 250px;
+  flex-shrink: 0;
+}
+
+.button4>button{
+  width: 160px;
+  height: 40px;
+  flex-shrink: 0;border: 1.5px solid #FFF;background-color: #2D2641;color: aliceblue; cursor: pointer;
+}
+  .button4{
+    padding-left: 300px;padding-top: 150px;
+  }
+.leftcontainer{
+  padding-left: 65px;padding-top: 70px;
+}
+.footer{
+  display: flex; justify-content: space-between; margin-top: 200px;margin-left: 165px ;margin-right: 165px;
+}
+.lists{
+  display: flex;
+}
+.footer1{
+  display: flex; justify-content: space-between;;margin-left: 165px ;margin-right: 165px;
+}
+.list1{
+  font-size: 10px;color: grey;list-style: none;
+}
+.footer1{
+  text-align: left;align-items: left;
+}    
+
+.p{
+  cursor: pointer;
+}
+
+.oth{
+  cursor: pointer;
+}
+
+.icon4{
+  cursor: pointergi;
+}
